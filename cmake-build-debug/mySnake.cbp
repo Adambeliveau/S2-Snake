@@ -80,6 +80,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h">
+			<Option target="mySnake"/>
+		</Unit>
+		<Unit filename="/Users/marie-evecastonguay/projetS2/S2-Snake/interface.cpp">
+			<Option target="mySnake"/>
+		</Unit>
+		<Unit filename="/Users/marie-evecastonguay/projetS2/S2-Snake/interface.h">
+			<Option target="mySnake"/>
+		</Unit>
 		<Unit filename="/Users/marie-evecastonguay/projetS2/S2-Snake/main.cpp">
 			<Option target="mySnake"/>
 		</Unit>

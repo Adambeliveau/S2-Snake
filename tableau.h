@@ -4,7 +4,8 @@
 
 #ifndef MYSNAKE_TABLEAU_H
 #define MYSNAKE_TABLEAU_H
-#define LONGUEUR 20
+
+#include "allDefines.h"
 
 class tableau {
 private:

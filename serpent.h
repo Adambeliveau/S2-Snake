@@ -4,17 +4,16 @@
 
 #ifndef MYSNAKE_SERPENT_H
 #define MYSNAKE_SERPENT_H
-
+#include "allDefines.h"
 
 class serpent {
 private:
-    int positionx;
-    int positiony;
+    int x;
+    int y;
     int taille;
 
 public:
-
-
+    serpent();
 };
 
 

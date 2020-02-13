@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/marie-evecastonguay/projetS2/S2-Snake/interface.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/interface.cpp.o"
   "/Users/marie-evecastonguay/projetS2/S2-Snake/main.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/main.cpp.o"
   "/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/serpent.cpp.o"
   "/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/tableau.cpp.o"

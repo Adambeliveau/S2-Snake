@@ -3,3 +3,9 @@
 //
 
 #include "serpent.h"
+
+serpent::serpent() {
+    taille = 3;
+    x = LONGUEUR/2;
+    y = LONGUEUR/2;
+}
