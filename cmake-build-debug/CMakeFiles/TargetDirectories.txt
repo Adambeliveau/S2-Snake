@@ -1,0 +1,3 @@
+C:/Users/adamb/Documents/mySnake/cmake-build-debug/CMakeFiles/mySnake.dir
+C:/Users/adamb/Documents/mySnake/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/adamb/Documents/mySnake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
