@@ -1,6 +1,14 @@
 #include <iostream>
+#include "tableau.h"
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    tableau tab;
+
+    tab.afficherTableau();
+
+    cout << "Hello, World!" << endl;
     return 0;
 }

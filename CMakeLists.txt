@@ -3,4 +3,4 @@ project(mySnake)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(mySnake main.cpp)
+add_executable(mySnake main.cpp tableau.cpp tableau.h)

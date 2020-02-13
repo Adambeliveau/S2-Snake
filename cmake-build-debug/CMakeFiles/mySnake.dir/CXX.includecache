@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.cpp
+tableau.h
+/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
+iostream
+-
+
+/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
+

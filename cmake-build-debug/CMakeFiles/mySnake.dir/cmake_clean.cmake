@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mySnake.dir/main.cpp.o"
+  "CMakeFiles/mySnake.dir/tableau.cpp.o"
   "mySnake"
   "mySnake.pdb"
 )

@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/mySnake.dir/build.make CMakeFiles/mySnake.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tableau.o: tableau.cpp.o
+
+.PHONY : tableau.o
+
+# target to build an object file
+tableau.cpp.o:
+	$(MAKE) -f CMakeFiles/mySnake.dir/build.make CMakeFiles/mySnake.dir/tableau.cpp.o
+.PHONY : tableau.cpp.o
+
+tableau.i: tableau.cpp.i
+
+.PHONY : tableau.i
+
+# target to preprocess a source file
+tableau.cpp.i:
+	$(MAKE) -f CMakeFiles/mySnake.dir/build.make CMakeFiles/mySnake.dir/tableau.cpp.i
+.PHONY : tableau.cpp.i
+
+tableau.s: tableau.cpp.s
+
+.PHONY : tableau.s
+
+# target to generate assembly for a file
+tableau.cpp.s:
+	$(MAKE) -f CMakeFiles/mySnake.dir/build.make CMakeFiles/mySnake.dir/tableau.cpp.s
+.PHONY : tableau.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tableau.o"
+	@echo "... tableau.i"
+	@echo "... tableau.s"
 .PHONY : help
 
 
