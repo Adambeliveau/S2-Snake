@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/mySnake.dir/build.make CMakeFiles/mySnake.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+serpent.o: serpent.cpp.o
+
+.PHONY : serpent.o
+
+# target to build an object file
+serpent.cpp.o:
+	$(MAKE) -f CMakeFiles/mySnake.dir/build.make CMakeFiles/mySnake.dir/serpent.cpp.o
+.PHONY : serpent.cpp.o
+
+serpent.i: serpent.cpp.i
+
+.PHONY : serpent.i
+
+# target to preprocess a source file
+serpent.cpp.i:
+	$(MAKE) -f CMakeFiles/mySnake.dir/build.make CMakeFiles/mySnake.dir/serpent.cpp.i
+.PHONY : serpent.cpp.i
+
+serpent.s: serpent.cpp.s
+
+.PHONY : serpent.s
+
+# target to generate assembly for a file
+serpent.cpp.s:
+	$(MAKE) -f CMakeFiles/mySnake.dir/build.make CMakeFiles/mySnake.dir/serpent.cpp.s
+.PHONY : serpent.cpp.s
+
 tableau.o: tableau.cpp.o
 
 .PHONY : tableau.o
@@ -189,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... serpent.o"
+	@echo "... serpent.i"
+	@echo "... serpent.s"
 	@echo "... tableau.o"
 	@echo "... tableau.i"
 	@echo "... tableau.s"

@@ -4,7 +4,7 @@
 
 #ifndef MYSNAKE_TABLEAU_H
 #define MYSNAKE_TABLEAU_H
-#define LONGUEUR 10
+#define LONGUEUR 20
 
 class tableau {
 private:

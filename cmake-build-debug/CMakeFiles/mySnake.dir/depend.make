@@ -4,6 +4,9 @@
 CMakeFiles/mySnake.dir/main.cpp.o: ../main.cpp
 CMakeFiles/mySnake.dir/main.cpp.o: ../tableau.h
 
+CMakeFiles/mySnake.dir/serpent.cpp.o: ../serpent.cpp
+CMakeFiles/mySnake.dir/serpent.cpp.o: ../serpent.h
+
 CMakeFiles/mySnake.dir/tableau.cpp.o: ../tableau.cpp
 CMakeFiles/mySnake.dir/tableau.cpp.o: ../tableau.h
 

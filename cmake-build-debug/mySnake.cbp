@@ -83,6 +83,12 @@
 		<Unit filename="/Users/marie-evecastonguay/projetS2/S2-Snake/main.cpp">
 			<Option target="mySnake"/>
 		</Unit>
+		<Unit filename="/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.cpp">
+			<Option target="mySnake"/>
+		</Unit>
+		<Unit filename="/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h">
+			<Option target="mySnake"/>
+		</Unit>
 		<Unit filename="/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.cpp">
 			<Option target="mySnake"/>
 		</Unit>
