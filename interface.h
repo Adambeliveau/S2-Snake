@@ -5,11 +5,20 @@
 #ifndef MYSNAKE_INTERFACE_H
 #define MYSNAKE_INTERFACE_H
 #include "allDefines.h"
-
+#include "serpent.h"
+#include "tableau.h"
 
 class interface {
 private:
+    tableau tab;
+    serpent serp;
+    Direction moving;
+
     bool gameOver;
+
+public:
+    interface();
+
 
 };
 

@@ -4,9 +4,12 @@
 CMakeFiles/mySnake.dir/interface.cpp.o: ../allDefines.h
 CMakeFiles/mySnake.dir/interface.cpp.o: ../interface.cpp
 CMakeFiles/mySnake.dir/interface.cpp.o: ../interface.h
+CMakeFiles/mySnake.dir/interface.cpp.o: ../serpent.h
+CMakeFiles/mySnake.dir/interface.cpp.o: ../tableau.h
 
 CMakeFiles/mySnake.dir/main.cpp.o: ../allDefines.h
 CMakeFiles/mySnake.dir/main.cpp.o: ../main.cpp
+CMakeFiles/mySnake.dir/main.cpp.o: ../serpent.h
 CMakeFiles/mySnake.dir/main.cpp.o: ../tableau.h
 
 CMakeFiles/mySnake.dir/serpent.cpp.o: ../allDefines.h
@@ -14,6 +17,7 @@ CMakeFiles/mySnake.dir/serpent.cpp.o: ../serpent.cpp
 CMakeFiles/mySnake.dir/serpent.cpp.o: ../serpent.h
 
 CMakeFiles/mySnake.dir/tableau.cpp.o: ../allDefines.h
+CMakeFiles/mySnake.dir/tableau.cpp.o: ../serpent.h
 CMakeFiles/mySnake.dir/tableau.cpp.o: ../tableau.cpp
 CMakeFiles/mySnake.dir/tableau.cpp.o: ../tableau.h
 

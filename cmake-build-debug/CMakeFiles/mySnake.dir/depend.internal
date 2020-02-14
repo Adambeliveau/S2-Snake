@@ -5,9 +5,12 @@ CMakeFiles/mySnake.dir/interface.cpp.o
  /Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
  /Users/marie-evecastonguay/projetS2/S2-Snake/interface.cpp
  /Users/marie-evecastonguay/projetS2/S2-Snake/interface.h
+ /Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
+ /Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
 CMakeFiles/mySnake.dir/main.cpp.o
  /Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
  /Users/marie-evecastonguay/projetS2/S2-Snake/main.cpp
+ /Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
  /Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
 CMakeFiles/mySnake.dir/serpent.cpp.o
  /Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
@@ -15,5 +18,6 @@ CMakeFiles/mySnake.dir/serpent.cpp.o
  /Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
 CMakeFiles/mySnake.dir/tableau.cpp.o
  /Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
+ /Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
  /Users/marie-evecastonguay/projetS2/S2-Snake/tableau.cpp
  /Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h

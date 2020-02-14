@@ -15,20 +15,24 @@ interface.h
 /Users/marie-evecastonguay/projetS2/S2-Snake/interface.h
 allDefines.h
 /Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
+serpent.h
+/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
+tableau.h
+/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
 
 /Users/marie-evecastonguay/projetS2/S2-Snake/main.cpp
 iostream
 -
 tableau.h
 /Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
-
-/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.cpp
 serpent.h
 /Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
 
 /Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
 allDefines.h
 /Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
+vector
+-
 
 /Users/marie-evecastonguay/projetS2/S2-Snake/tableau.cpp
 tableau.h
@@ -39,4 +43,6 @@ iostream
 /Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
 allDefines.h
 /Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
+serpent.h
+/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
 
