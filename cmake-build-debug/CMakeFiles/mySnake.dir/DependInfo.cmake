@@ -4,9 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/adamb/Documents/mySnake/main.cpp" "C:/Users/adamb/Documents/mySnake/cmake-build-debug/CMakeFiles/mySnake.dir/main.cpp.obj"
+  "/Users/marie-evecastonguay/projetS2/S2-Snake/interface.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/interface.cpp.o"
+  "/Users/marie-evecastonguay/projetS2/S2-Snake/main.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/main.cpp.o"
+  "/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/serpent.cpp.o"
+  "/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/tableau.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

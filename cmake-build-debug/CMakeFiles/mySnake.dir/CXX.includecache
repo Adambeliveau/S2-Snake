@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
+
+/Users/marie-evecastonguay/projetS2/S2-Snake/interface.cpp
+interface.h
+/Users/marie-evecastonguay/projetS2/S2-Snake/interface.h
+
+/Users/marie-evecastonguay/projetS2/S2-Snake/interface.h
+allDefines.h
+/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
+
+/Users/marie-evecastonguay/projetS2/S2-Snake/main.cpp
+iostream
+-
+tableau.h
+/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
+
+/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.cpp
+serpent.h
+/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
+
+/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
+allDefines.h
+/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
+
+/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.cpp
+tableau.h
+/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
+iostream
+-
+
+/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
+allDefines.h
+/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
+
