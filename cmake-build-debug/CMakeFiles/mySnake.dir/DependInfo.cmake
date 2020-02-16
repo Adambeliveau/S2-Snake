@@ -4,12 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/marie-evecastonguay/projetS2/S2-Snake/interface.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/interface.cpp.o"
-  "/Users/marie-evecastonguay/projetS2/S2-Snake/main.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/main.cpp.o"
-  "/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/serpent.cpp.o"
-  "/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.cpp" "/Users/marie-evecastonguay/projetS2/S2-Snake/cmake-build-debug/CMakeFiles/mySnake.dir/tableau.cpp.o"
+  "C:/Users/adamb/Documents/mySnake/main.cpp" "C:/Users/adamb/Documents/mySnake/cmake-build-debug/CMakeFiles/mySnake.dir/main.cpp.obj"
+  "C:/Users/adamb/Documents/mySnake/serpent.cpp" "C:/Users/adamb/Documents/mySnake/cmake-build-debug/CMakeFiles/mySnake.dir/serpent.cpp.obj"
+  "C:/Users/adamb/Documents/mySnake/tableau.cpp" "C:/Users/adamb/Documents/mySnake/cmake-build-debug/CMakeFiles/mySnake.dir/tableau.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -6,25 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
-
-/Users/marie-evecastonguay/projetS2/S2-Snake/main.cpp
-iostream
--
-tableau.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
-serpent.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
-
-/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
-allDefines.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
-vector
--
-
-/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
-allDefines.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
-serpent.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
-

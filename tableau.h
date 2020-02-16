@@ -15,6 +15,9 @@ private:
     int taille;
     int fruitX, fruitY;
     serpent serp;
+    bool gameOver;
+    int dir;
+
 
 public:
     tableau();
@@ -22,6 +25,7 @@ public:
     void draw();
     void input();
     void afficherTableau();
+    bool getgameOver(){return gameOver;}
 
     //char getFruit();
     //int getFruitX();

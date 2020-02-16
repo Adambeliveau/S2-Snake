@@ -4,9 +4,13 @@
 
 #include "tableau.h"
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 tableau::tableau() {
+    gameOver = false;
+    dir = 2;
+
     taille = LONGUEUR;
     fruit = '*';
     randomFruit();
@@ -55,6 +59,16 @@ void tableau::draw() {
 }
 
 void tableau::input() {
+if(_kbhit())
+    switch (_getch())
+    {
+        case 'a': dir++;
+            break;
+        case 'd': dir--;
+            break;
+        case 'x': gameOver = true;
+            break;
+    }
 
 }
 

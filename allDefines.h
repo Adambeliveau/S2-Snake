@@ -6,6 +6,10 @@
 #define MYSNAKE_ALLDEFINES_H
 
 #define LONGUEUR 25
-enum Direction{STOP = 0, RIGHT, LEFT, UP, DOWN};
+#define RIGHT 0
+#define LEFT 2
+#define UP 1
+#define DOWN 3
+
 
 #endif //MYSNAKE_ALLDEFINES_H
