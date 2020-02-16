@@ -3,7 +3,6 @@
 //
 
 #include "tableau.h"
-
 #include <iostream>
 using namespace std;
 
@@ -18,32 +17,13 @@ tableau::tableau() {
             tab[i][j] = ' ';
         }
     }
-
-    //Mettre le cadre autour de la matrice
-    for (int i =0;i<taille;i++){
-        tab[i][0] = '|';
-        tab[i][taille-1] = '|';
-        tab[0][i] = '_';
-        tab[taille-1][i] = '_';
-    }
-}
-
-int tableau::getTaille() {
-    return taille;
 }
 
 void tableau::randomFruit() {
-    fruitX = rand() % (taille-1) + 1;
-    fruitY = rand() % (taille-1) + 1;
+    fruitX = rand() % (taille-1)+1;
+    fruitY = rand() % (taille-1)+1;
+    tab[fruitX][fruitY] = fruit;
     cout<<fruitX<<" "<<fruitY<<endl;
-}
-
-int tableau::getFruitX() {
-    return fruitX;
-}
-
-int tableau::getFruitY() {
-    return fruitY;
 }
 
 void tableau::afficherTableau() {
@@ -57,11 +37,41 @@ void tableau::afficherTableau() {
     }
 }
 
-char tableau::getFruit() {
+void tableau::draw() {
+    for (int i =0;i<taille;i++){
+        for (int j=0;j<taille;j++){
+
+            if(i==0 || j==0 || i==(taille-1) || j==(taille-1)){
+                tab[i][j] = '#';
+            }
+            if(i==serp.getX() && j==serp.getY()) {
+                tab[i][j] = 'O';
+            }
+            if(i==fruitX && j==fruitY){
+                tab[i][j] = '*';
+            }
+        }
+    }
+}
+
+void tableau::input() {
+
+}
+
+
+/*
+int tableau::getTaille() {
+    return taille;
+}
+ int tableau::getFruitX() {
+    return fruitX;
+}
+
+int tableau::getFruitY() {
+    return fruitY;
+
+}
+
+ char tableau::getFruit() {
     return fruit;
-}
-
-void tableau::putFruit() {
-    tab[fruitX][fruitY] = fruit;
-}
-
+}*/

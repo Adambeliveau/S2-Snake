@@ -18,15 +18,15 @@ private:
 
 public:
     tableau();
-    int getTaille();
-
     void randomFruit();
-    char getFruit();
-    int getFruitX();
-    int getFruitY();
-
-    void putFruit();
+    void draw();
+    void input();
     void afficherTableau();
+
+    //char getFruit();
+    //int getFruitX();
+    //int getFruitY();
+    //int getTaille();
 };
 
 

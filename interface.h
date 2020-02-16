@@ -11,7 +11,6 @@
 class interface {
 private:
     tableau tab;
-    serpent serp;
     Direction moving;
 
     bool gameOver;

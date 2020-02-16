@@ -8,10 +8,8 @@
 using namespace std;
 
 serpent::serpent() {
-    taille = 3;
+    taille = 1;
     snake.push_back('o');
-    snake.push_back('~');
-    snake.push_back('~');
     x = LONGUEUR/2;
     y = LONGUEUR/2;
 }

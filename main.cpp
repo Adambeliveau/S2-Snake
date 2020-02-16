@@ -8,9 +8,12 @@ int main() {
     tableau tab;
     serpent serp;
 
+    tab.draw();
     tab.afficherTableau();
-    serp.afficherSerpent();
+    //system("clear"); // changer pour "cls" sur windows
+    //tab.input();
+    //tab.afficherTableau();
+    //serp.afficherSerpent();
 
-    cout << "Hello, World!" << endl;
     return 0;
 }
