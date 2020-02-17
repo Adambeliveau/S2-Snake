@@ -8,32 +8,53 @@
 using namespace std;
 
 serpent::serpent() {
-    taille = 1;
-    snake.push_back('o');
-    x = LONGUEUR/2;
-    y = LONGUEUR/2;
+    taille = 5;
+
+    coord coordonnee;
+    coordonnee.x = LONGUEUR/2;
+    coordonnee.y = LONGUEUR/2;
+    snake.push_back((coordonnee));
+    for (int i = 0; i < taille; ++i) {
+        coordonnee.x++;
+        snake.push_back(coordonnee);
+    }
 }
 
-int serpent::getX() {
-    return x;
-}
 
-int serpent::getY() {
-    return y;
-}
+
+
 
 int serpent::getTaille() {
     return taille;
 }
 
-void serpent::allonger() {
-    snake.push_back('~');
+void serpent::setcoord(vector<coord> x) {
+    snake = x;
 }
 
-void serpent::afficherSerpent() {
-
-    for (int i = 0; i<snake.size();++i){
-        cout<<snake.at(i)<<" ";
+void serpent::setTaille(int d, coord c) {
+    if(d == RIGHT)
+    {
+        c.x++;
+        snake.push_back(c);
     }
-    cout<<endl;
+    if(d == LEFT) {
+        c.x--;
+        snake.push_back(c);
+    }
+    if(d == UP) {
+        c.y++;
+        snake.push_back(c);
+    }
+    if(d == DOWN) {
+        c.y--;
+        snake.push_back(c);
+    }
+    taille++;
+
 }
+
+
+
+
+

@@ -6,23 +6,23 @@
 #define MYSNAKE_SERPENT_H
 #include "allDefines.h"
 #include <vector>
+#include "coord.h"
+
 
 using namespace std;
 
 class serpent {
 private:
-    vector <char> snake;
-    int x;
-    int y;
+    vector <coord> snake;
     int taille;
+
 
 public:
     serpent();
-    int getX();
-    int getY();
     int getTaille();
-    void allonger();
-    void afficherSerpent();
+    void setcoord(vector<coord> x);
+    vector<coord> getCoord(){return snake;}
+    void setTaille(int d,coord c);
 };
 
 

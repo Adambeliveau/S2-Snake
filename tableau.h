@@ -17,20 +17,26 @@ private:
     serpent serp;
     bool gameOver;
     int dir;
+    int point;
+    int pos;
+
+
 
 
 public:
     tableau();
     void randomFruit();
-    void draw();
+    void draw(serpent last);
     void input();
     void afficherTableau();
     bool getgameOver(){return gameOver;}
+    void setSerpent(serpent SErpp){ serp = SErpp;}
+    serpent getSerpent(){return serp;}
+    int getDir(){return dir;}
+    void detection();
+    char intToChar();
+    int getPoint(){return point;}
 
-    //char getFruit();
-    //int getFruitX();
-    //int getFruitY();
-    //int getTaille();
 };
 
 

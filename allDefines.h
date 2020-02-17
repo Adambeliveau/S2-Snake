@@ -5,7 +5,8 @@
 #ifndef MYSNAKE_ALLDEFINES_H
 #define MYSNAKE_ALLDEFINES_H
 
-#define LONGUEUR 25
+#define LONGUEUR 16
+#define SPEED 0.35
 #define RIGHT 0
 #define LEFT 2
 #define UP 1

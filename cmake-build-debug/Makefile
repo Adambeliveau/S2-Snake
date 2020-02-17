@@ -122,6 +122,33 @@ mySnake/fast:
 	$(MAKE) -f CMakeFiles\mySnake.dir\build.make CMakeFiles/mySnake.dir/build
 .PHONY : mySnake/fast
 
+interface.obj: interface.cpp.obj
+
+.PHONY : interface.obj
+
+# target to build an object file
+interface.cpp.obj:
+	$(MAKE) -f CMakeFiles\mySnake.dir\build.make CMakeFiles/mySnake.dir/interface.cpp.obj
+.PHONY : interface.cpp.obj
+
+interface.i: interface.cpp.i
+
+.PHONY : interface.i
+
+# target to preprocess a source file
+interface.cpp.i:
+	$(MAKE) -f CMakeFiles\mySnake.dir\build.make CMakeFiles/mySnake.dir/interface.cpp.i
+.PHONY : interface.cpp.i
+
+interface.s: interface.cpp.s
+
+.PHONY : interface.s
+
+# target to generate assembly for a file
+interface.cpp.s:
+	$(MAKE) -f CMakeFiles\mySnake.dir\build.make CMakeFiles/mySnake.dir/interface.cpp.s
+.PHONY : interface.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -212,6 +239,9 @@ help:
 	@echo ... mySnake
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... interface.obj
+	@echo ... interface.i
+	@echo ... interface.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
