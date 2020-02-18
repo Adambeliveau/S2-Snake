@@ -4,7 +4,10 @@ using namespace std;
 
 int main() {
 
+    system("cls");
     interface Interface;
-    Interface.init();
+    while(!Interface.getQuit())
+        Interface.menu();
+
     return 0;
 }
