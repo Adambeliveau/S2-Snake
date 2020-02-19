@@ -10,30 +10,6 @@ C:/Users/adamb/Documents/mySnake/allDefines.h
 
 C:/Users/adamb/Documents/mySnake/coord.h
 
-C:/Users/adamb/Documents/mySnake/interface.h
-iostream
--
-ctime
--
-conio.h
--
-fstream
--
-string
--
-sstream
--
-tableau.h
-C:/Users/adamb/Documents/mySnake/tableau.h
-serpent.h
-C:/Users/adamb/Documents/mySnake/serpent.h
-allDefines.h
-C:/Users/adamb/Documents/mySnake/allDefines.h
-
-C:/Users/adamb/Documents/mySnake/main.cpp
-interface.h
-C:/Users/adamb/Documents/mySnake/interface.h
-
 C:/Users/adamb/Documents/mySnake/serpent.h
 allDefines.h
 C:/Users/adamb/Documents/mySnake/allDefines.h
@@ -41,6 +17,14 @@ vector
 -
 coord.h
 C:/Users/adamb/Documents/mySnake/coord.h
+
+C:/Users/adamb/Documents/mySnake/tableau.cpp
+tableau.h
+C:/Users/adamb/Documents/mySnake/tableau.h
+iostream
+-
+conio.h
+-
 
 C:/Users/adamb/Documents/mySnake/tableau.h
 allDefines.h

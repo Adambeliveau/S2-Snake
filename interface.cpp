@@ -98,7 +98,8 @@ void interface::init() {
                 if(Score[j] == ValueMin && isDejaRemplace == false)
                 {
                     isDejaRemplace = true;
-                    Score[j] = tab.getPoint();
+                    if(tab.getPoint()>ValueMin)
+                        Score[j] = tab.getPoint();
                 }
 
                 if(j == 9)
@@ -136,7 +137,7 @@ void interface::menu() {
         cout<<"\tMeilleure score(2)"<<endl;
         cout<<"\tQuitter(3)"<<endl;
         cin>>choix;
-    }while(choix>2||choix<1);
+    }while(choix>3||choix<1);
     switch(choix)
     {
         case 1: init();
@@ -147,9 +148,6 @@ void interface::menu() {
         case 3:quit = true;
         break;
     }
-
-
-
 }
 
 void interface::SortScore() {
@@ -164,11 +162,26 @@ void interface::SortScore() {
     }
     int longueur = temp.length();
     int cpt = 0;
+    int oldI = 0;
     for (int i = 0; i < longueur; ++i) {
-        if(temp.at(i) != ',')
-        {
-            Score[cpt] = stoi(temp.substr(i),nullptr,10);
+        if(temp.at(i) != ',') {
+            Score[cpt] = stoi(temp.substr(i), nullptr,10);
             cpt++;
+            if(i<longueur-1)
+            {
+                if (temp.at(i+1) != ',')
+                {
+                    i++;
+                }
+            }
+            if(i<longueur-2)
+            {
+                if (temp.at(i+1) != ',')
+                {
+                    i++;
+                }
+            }
+
         }
     }
     int max = -1;
@@ -182,8 +195,6 @@ void interface::SortScore() {
                 indmax = j;
             }
         }
-        if(k == 9)
-            ValueMin = Score[indmax];
         ScoreTemp[k] = Score[indmax];
         Score[indmax] = 0;
         max = 0;
@@ -192,6 +203,7 @@ void interface::SortScore() {
 
         Score[l] = ScoreTemp[l];
     }
+    ValueMin = Score[9];
 }
 
 void interface::afficheScore() {
@@ -200,7 +212,6 @@ void interface::afficheScore() {
     for (int k = 0; k < 10; ++k) {
         cout << "player #"<<k+1<<" : "<<Score[k]<<endl;
     }
-
 }
 
 

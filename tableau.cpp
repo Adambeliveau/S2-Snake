@@ -11,12 +11,9 @@ tableau::tableau() {
     gameOver = false;
     dir = 2;
     point = 0;
-
-
     taille = LONGUEUR;
     fruit = '*';
     randomFruit();
-
     //Remplir tableau d'espaces blancs
     for (int i=0;i<taille;i++){
         for (int j=0;j<taille;j++){
@@ -26,10 +23,8 @@ tableau::tableau() {
 }
 
 void tableau::randomFruit() {
-
     fruitX = 1 + (rand() * (int)(taille - 1 - 1) / RAND_MAX);
     fruitY = 1 + (rand() * (int)(taille - 1 - 1) / RAND_MAX);
-
 }
 
 void tableau::afficherTableau() {
@@ -41,15 +36,11 @@ void tableau::afficherTableau() {
         }
         cout<<endl;
     }
-
 }
 
 void tableau::draw(serpent last) {
-
     for (int i = 0; i < taille; i++) {
         for (int j = 0; j < taille; j++) {
-
-
             if (i == 0 || j == 0 || i == (taille - 1) || j == (taille - 1)) {
                 if (j == LONGUEUR/2 + 1||j == LONGUEUR/2 - 2)
                 {
@@ -68,31 +59,25 @@ void tableau::draw(serpent last) {
                     tab[i][j] = '#';
             }
             for (int k = 0; k < serp.getTaille(); ++k) {
-                if (last.getCoord().at(0).x == j && last.getCoord().at(0).y == i) {
-                    tab[i][j] = 'o';
-                }
-                else if(last.getCoord().at(k).x == j && last.getCoord().at(k).y == i){
-                    tab[i][j] = ' ';
-                }
-                else if (serp.getCoord().at(0).x == j && serp.getCoord().at(0).y == i) {
+                if (serp.getCoord().at(0).x == j && serp.getCoord().at(0).y == i) {
                     tab[i][j] = 'O';
                 }
                 else if(serp.getCoord().at(k).x == j && serp.getCoord().at(k).y == i){
                     tab[i][j] = 'o';
                 }
-            }
+                else if (last.getCoord().at(0).x == j && last.getCoord().at(0).y == i) {
+                    tab[i][j] = 'o';
+                }
+                else if(last.getCoord().at(k).x == j && last.getCoord().at(k).y == i){
+                    tab[i][j] = ' ';
+                }
 
+            }
             if (i == fruitY && j == fruitX) {
                 tab[i][j] = '*';
             }
-
-
-
         }
-
     }
-    cout << serp.getCoord().at(0).x <<"|"<<fruitX<<"|"<<serp.getCoord().at(0).y<<"|"<<fruitY<<endl;
-
 }
 
 void tableau::input() {
@@ -110,6 +95,7 @@ if(_kbhit())
 }
 
 void tableau::detection() {
+    //detection du fruit
     if(serp.getCoord().at(0).x == fruitX && serp.getCoord().at(0).y == fruitY)
     {
         coord c;
@@ -119,6 +105,7 @@ void tableau::detection() {
         randomFruit();
         point += 1;
     }
+    //detection des murs
     for (int i = 0; i < serp.getTaille(); ++i) {
         for (int j = 0; j < serp.getTaille(); ++j) {
             if(i != j)
@@ -131,7 +118,7 @@ void tableau::detection() {
 
         }
     }
-    if(serp.getCoord().at(0).x == 0 || serp.getCoord().at(0).x == LONGUEUR || serp.getCoord().at(0).y == 0 || serp.getCoord().at(0).y == LONGUEUR-1){
+    if(serp.getCoord().at(0).x == 0 || serp.getCoord().at(0).x == LONGUEUR-1 || serp.getCoord().at(0).y == 0 || serp.getCoord().at(0).y == LONGUEUR-1){
         gameOver = true;
     }
 
@@ -153,8 +140,6 @@ char tableau::intToChar() {
         itoa(a,ptr_c,10);
     }
     char c = ptr_c[0];
-    cout << c<< endl;
-    cout << point<<endl;
     return c;
 }
 
