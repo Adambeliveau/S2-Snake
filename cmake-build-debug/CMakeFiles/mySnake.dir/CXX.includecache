@@ -6,37 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
+C:/Users/adamb/Documents/mySnake/allDefines.h
 
-/Users/marie-evecastonguay/projetS2/S2-Snake/interface.cpp
-interface.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/interface.h
+C:/Users/adamb/Documents/mySnake/coord.h
 
-/Users/marie-evecastonguay/projetS2/S2-Snake/interface.h
+C:/Users/adamb/Documents/mySnake/serpent.h
 allDefines.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
+C:/Users/adamb/Documents/mySnake/allDefines.h
+vector
+-
+coord.h
+C:/Users/adamb/Documents/mySnake/coord.h
 
-/Users/marie-evecastonguay/projetS2/S2-Snake/main.cpp
+C:/Users/adamb/Documents/mySnake/tableau.cpp
+tableau.h
+C:/Users/adamb/Documents/mySnake/tableau.h
 iostream
 -
-tableau.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
+conio.h
+-
 
-/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.cpp
+C:/Users/adamb/Documents/mySnake/tableau.h
+allDefines.h
+C:/Users/adamb/Documents/mySnake/allDefines.h
 serpent.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
-
-/Users/marie-evecastonguay/projetS2/S2-Snake/serpent.h
-allDefines.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
-
-/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.cpp
-tableau.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
-iostream
--
-
-/Users/marie-evecastonguay/projetS2/S2-Snake/tableau.h
-allDefines.h
-/Users/marie-evecastonguay/projetS2/S2-Snake/allDefines.h
+C:/Users/adamb/Documents/mySnake/serpent.h
 

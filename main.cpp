@@ -1,14 +1,13 @@
-#include <iostream>
-#include "tableau.h"
+#include "interface.h"
 
 using namespace std;
 
 int main() {
 
-    tableau tab;
+    system("cls");
+    interface Interface;
+    while(!Interface.getQuit())
+        Interface.menu();
 
-    tab.afficherTableau();
-
-    cout << "Hello, World!" << endl;
     return 0;
 }
